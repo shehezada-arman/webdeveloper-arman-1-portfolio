@@ -51,3 +51,28 @@ nav a {
 .header {
   background-color: #fff8f3;
 }
+
+.banner {padding: 30px 30px 0px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.arman {width: 584px;
+  height: 676px;
+}
+
+/* .banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .banner-content {
+    max-width: 500px;
+} */
+
+.arman {
+    width: 500px;
+} */

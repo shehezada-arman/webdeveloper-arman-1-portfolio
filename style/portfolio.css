@@ -97,12 +97,15 @@ nav a {
   margin-bottom: 20px;
 }
 /* about section  */
-
+main {
+  max-width: 1140px;
+  margin: 0px auto;
+}
 .about {
   border-radius: 10px;
   background: #fff8f3;
-  margin: 130px 230px;
-  padding: 130px 160px;
+  margin: 130px 0px;
+  padding: 130px;
 }
 
 .about-tittle {
@@ -114,9 +117,21 @@ nav a {
   font-weight: 700;
 }
 
-.about-desription {color:#757575;
+.about-desription {
+  color: #757575;
   text-align: center;
- 
+
   font-size: 18px;
+}
+/* about info */
+.about-info-container {display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
  
- }
+}
+
+/* .about-info {margin-left: 50px;} */
+.info-tittle {color: #757575;
+  text-align: center;
+  justify-content: center;
+}
